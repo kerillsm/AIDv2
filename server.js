@@ -15,10 +15,10 @@
 
  const app = express();
 
- const uri = 'mongodb://aiddbu2:Collecty123@ds249818.mlab.com:49818/aiddb';
+ const uri = 'mongodb+srv://AID:aiDecider123!@cluster0.fypmm.mongodb.net/aid?retryWrites=true&w=majority';
 
  const options = {
-     useMongoClient: true,
+     //useMongoClient: true,
      autoIndex: false, // Don't build indexes
      reconnectTries: Number.MAX_VALUE, // Never stop trying to reconnect
      reconnectInterval: 500, // Reconnect every 500ms
