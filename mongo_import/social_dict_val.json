@@ -1,0 +1,22 @@
+[
+{    "id": 1,    "value": "guy",    "type": "who",    "data": []},
+{    "id": 2,    "value": "friend",    "type": "who",    "data": []},
+{    "id": 3,    "value": "lover",    "type": "who",    "data": []},
+{    "id": 4,    "value": "partner",    "type": "who",    "data": []},
+{    "id": 5,    "value": "girl",    "type": "who",    "data": []},
+{    "id": 6,    "value": "boy",    "type": "who",    "data": []},
+{    "id": 7,    "value": "boyfriend",    "type": "who",    "data": []},
+{    "id": 8,    "value": "girlfriend",    "type": "who",    "data": []},
+{    "id": 9,    "value": "he",    "type": "who",    "data": []},
+{    "id": 10,    "value": "she",    "type": "who",    "data": []},
+{    "id": 11,    "value": "her",    "type": "who",    "data": []},
+{    "id": 12,    "value": "him",    "type": "who",    "data": []},
+{    "id": 13,    "value": "man",    "type": "who",    "data": []},
+{    "id": 14,    "value": "woman",    "type": "who",    "data": []},
+{    "id": 15,    "value": "husband",    "type": "who",    "data": []},
+{    "id": 16,    "value": "hubby",    "type": "who",    "data": []},
+{    "id": 17,    "value": "wife",    "type": "who",    "data": []},
+{    "id": 18,    "value": "spouse",    "type": "who",    "data": []},
+{    "id": 19,    "value": "widow",    "type": "who",    "data": []},
+{    "id": 20,    "value": "crush",    "type": "who",    "data": []}
+]

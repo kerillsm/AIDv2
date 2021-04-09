@@ -1,0 +1,114 @@
+.fake-slider-input{
+	min-width: 80%;
+	margin-left:10px;
+}
+.slider-input{
+	min-width: 70%;
+	margin-left:10px;
+}
+
+
+
+.decision-slider {
+    position: relative;
+    display: flex;
+	min-width:480px;
+	max-width:800px;
+    flex-direction: column;
+    margin:auto;
+    padding: 20px; }
+.decision-slider .middle-line {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    bottom: 0;
+    width: 1.5px;
+    background: #d5d5d5;
+    transform: translateX(-50%); }
+.decision-slider .add-slider {
+    position: relative;
+    z-index: 5;
+	color:white;
+    padding: 5px 10px;
+	border-radius:5px;
+    background: #3f51b5;
+    display: inline-block;
+    margin: 0 auto; }
+.decision-slider .add-slider:hover {
+    cursor: pointer; }
+
+.thumb {
+    width: 10px;
+    height: 25px;
+    position: relative;
+    left: calc(50% - 5px);
+    top: -5px;
+    background: blue;
+    cursor: pointer; }
+
+.percents {
+    display: block;
+    width: 30px;
+    text-align: center; }
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+.dashboard h3 {
+    display: flex; 
+	width:100%;
+	    justify-content: space-around;
+}
+.dashboard p {
+    display: flex; }
+.dashboard p:first-child {
+    margin-right: 10px; }
+.dashboard .score {
+    width: 30px;
+    display: block;
+	color: #3f51b5;
+	font-size:150%;
+    line-height: 39px;
+    text-align: center;
+    margin: 0 20px 0 10px; }
+.dashboard input {
+    padding: 5px;
+    width: 100%; 
+	border-radius: 5px;
+	}
+.dashboard input:focus {
+    outline: none; }
+.miniDButton{
+	margin-right:3px;	
+}
+	
+.dashboard-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+.mdashboard-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+.dashboard-buttons input {
+    padding: 10px;
+    font-size: 130%;
+    border: none;
+    border-bottom: 2px dashed #011627; }
+.mdashboard-buttons input {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+	max-width:150px;
+    border-bottom: 2px dashed #011627; }	
+.mdashboard-buttons div {
+    margin: 0 5px 0 0;}	
+.dashboard-buttons input:focus {
+    outline: none; }

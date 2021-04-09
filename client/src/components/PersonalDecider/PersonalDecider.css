@@ -1,0 +1,65 @@
+.deciderForm {
+    padding: 15px 0;
+	display:flex;
+	flex-wrap: wrap;
+	margin: 100px 10px 20px 10px;
+	justify-content: center;
+}
+
+.deciderInput {
+	min-width:53%;
+}
+
+.deciderButton {
+	margin:10px 0 0 15px !important;
+}
+
+.deciderPlaceholder {
+	margin: 10px 10px 20px 30px;
+	padding: 10px;
+	max-width:1000px;
+	margin: auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.deciderParam {
+	max-width:25%;
+	margin-right: 10px;
+}
+.deciderLabel{
+	max-width:25%;
+	margin-left:30px;
+}
+.deciderText{
+	margin-left:30px;
+}
+
+.personal-decider{
+	min-height: 91.5vh;
+	margin-bottom:50px;
+	border-bottom:1px solid #3f51b5;
+}
+.CircleLoader{
+	margin-left:48%;
+}
+
+.dashboard-paper{
+	margin:10px 15% 10px 15%;
+	padding:5px;
+}
+.dashboard-paper p{
+	margin-left:30px;
+}
+
+.aidy_icon{
+	border:1px solid #3f51b5;
+	border-radius:10px;
+	display:inline-block;
+	margin:5px;
+}
+.aidy_talk{
+	font-size:120%!important;
+	color:#3f51b5!important;
+	margin:10px 5px!important;
+}

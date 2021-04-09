@@ -1,0 +1,125 @@
+.auth-popup {
+    min-width: 320px;
+	width: 320px;
+    height: 365px;
+    padding: 20px;
+    position: absolute;
+    color: #3f51b5;
+    background: white;
+    top: -500px;
+    transition: top 0.5s linear;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    z-index: 99999; 
+	border:1px solid #3f51b5;
+	}
+.eugdpr input {
+    max-width: 20px;
+	}
+.auth-popup .check {
+    width: 100%;
+    display: flex; 
+	}
+.auth-popup h1 {
+    text-align: center;
+    margin: 20px 0; }
+.auth-popup input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px; 
+	border:0.5px solid #3f51b5;
+	}
+.auth-popup button {
+    margin: 10px auto;
+    text-align: center;
+	width:80px;
+	height:30px;
+    display: block; 
+	border:0.5px solid #3f51b5;
+	}
+.auth-popup a {
+    color:#3f51b5;}
+.reginput {
+	margin-bottom:20px;
+}
+.check a {
+    width: 50%;
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+		border:0.5px solid #3f51b5;
+	}
+.check a.active {
+    background: #3f51b5;
+    color:white;}
+
+.shown-popup {
+    top: 200px; }
+
+/* profile */
+.profile {
+    width: 100%;
+}
+.profile a{
+    text-decoration: none;
+}
+.profile .profile-tabs {
+    width: 100%;
+    display: flex;
+    background: white; }
+.profile .profile-tab {
+    width: 33.3%;
+    padding: 20px;
+    text-align: center; }
+.profile .profile-tab.active {
+    color: #fffacd;
+    background: #022440; }
+.profile .profile-tab:hover {
+    cursor: pointer; }
+.profile .maps-search-bar .map-search input {
+    width: 100%;
+    padding: 5px; }
+.profile .maps-search-bar label {
+    margin: 10px 0 5px 0;
+    display: block; }
+.profile .maps-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; }
+	
+.profile .maps-list .map-unit {
+    width: 50px;
+	height: 50px;
+    padding-top: 33.33%;
+    margin-bottom: 20px;
+    position: relative;
+    transition: all .25s ease; }
+.profile .maps-list .map-unit:hover {
+    transform: scale(1.05); }
+.profile .maps-list .map-unit p {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    white-space:normal;
+    font-size: 180%;
+    overflow:  hidden;
+    text-overflow: clip;
+    margin: 0px; }
+.profile .fitlers-sorting {
+    display: flex;
+    justify-content: space-between; }
+
+.maps-list{
+	vertical-align: center;
+	}
+.maps-list-button{
+	  margin: 10px;
+	  width: 150px;
+}

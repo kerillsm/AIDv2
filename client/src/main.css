@@ -1,0 +1,255 @@
+@import "homepage.css";
+
+@import "menu.css";
+@import "aside.css";
+@import "footer.css";
+@import "mediaq.css";
+@import "profile.css";
+@import "share.css";
+@import "proscons.css";
+
+@import "rangeslider.css";
+
+@import "autosuggest.css";
+
+@import "maps.css";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong,  tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption,  header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,  aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block; }
+
+body {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1; 
+
+	}
+
+blockquote, q {
+    quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+
+* {
+    box-sizing: border-box; }
+
+
+
+
+.main {
+    width: 100%;
+    padding: 20px 315px 65px 110px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+.main > * {
+    overflow: hidden; }
+
+
+main {
+    width: 100%;
+    min-width: 480px;
+    margin: 0 auto;
+	border-right:1px solid rgb(0, 188, 212);
+    overflow: visible !important;
+}
+main h1 {
+    font-size: 30px;
+	border: 1px solid #d5d5d5;
+    text-align: center;
+    padding: 10px;
+    background: rgb(0, 188, 212);
+	color:white;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto; }
+main h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    background: #3f51b5;
+	color:white;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto; }
+main h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+	color:#3f51b5;
+	border-top:1px solid #3f51b5;
+	border-bottom:1px solid #3f51b5;
+    display: block;
+    object-fit: cover;
+    margin: 5px 0 5px 0; 
+	}
+main h4 {
+    font-size: 20px;
+	height: 48px;
+    text-align: center;
+    padding: 10px;
+    background: #3f51b5;
+	color:white;
+    display: block;
+    object-fit: cover;
+    margin: 5px 0 5px 0; 
+	}
+main h5 {
+	font-size: 20px;
+    text-align: center;
+    padding: 10px;
+	color:rgb(0, 188, 212);
+	/*border-top:1px solid rgb(0, 188, 212);*/
+	border-bottom:1px solid rgb(0, 188, 212);
+    display: block;
+    object-fit: cover;
+    margin: 5px 0 5px 0; 
+	}
+main img {
+    max-width: 100%;
+    margin: 20px 0; }
+main p {
+    margin: 10px; }
+
+
+
+/* visualization */
+#mynetwork {
+    width: 100%;
+    height: 800px;
+    border: 1px solid lightgray;
+    font-size: 24px !important; }
+
+.tree-popup {
+    position: absolute; }
+
+.hidden {
+    display: none; }
+
+.edit-tree {
+    width: 100%;
+    min-height: 100px;
+    margin-top: -10px; }
+.edit-tree > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+    padding: 0 20px; }
+
+/* end of visualization */
+
+/* right aside (additional options etc) */
+.right-aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background: black; }
+
+/* end of right aside */
+.shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    pointer-events: none;
+    z-index: 99999; }
+
+.shown-shadow {
+    opacity: 1;
+    pointer-events: all; }
+
+/*styles in AboutUs*/
+.aboutus {
+    width:100%;
+	font-family: "Ubuntu", Tahoma, sans-serif;
+	text-align: justify;
+}
+
+
+.logo h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #dcad00;
+}
+.aboutus p{
+    letter-spacing: 0.8px;
+}
+.aboutus ul{
+    list-style-type: circle;
+    margin: 20px;
+    padding: 15px;
+}
+
+/*styles in Terms of Service*/
+.terms {
+
+    font-family: "Ubuntu", Tahoma, sans-serif;
+	text-align: justify;
+	}
+.terms p{
+    letter-spacing: 0.8px;
+}
+
+.terms ul{
+    list-style-type: circle;
+    margin: 20px;
+    padding: 15px;
+}
+
+#imgLogo{
+    font-size: 100%;
+    font: inherit;
+    display: inline;
+    padding:20px;
+}
+
+.travelButton {
+	margin-top: 5px;
+}
+
+.travelMenu {
+	 border: 1px solid rgb(0, 188, 212);
+	 border-radius: 7px;
+	 margin: 2%;
+}
+.smaps{
+	margin:auto;
+}
+

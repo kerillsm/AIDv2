@@ -1,0 +1,24 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import ReactSVG from 'react-svg';
+
+const Footer = () => {
+
+  return (
+    <footer>
+      <div className="flinks">
+        <Link to="/about">About</Link>
+		<Link to='/terms-of-service'>Terms of Service</Link>
+        <Link to='/contact-us'>Contact Us</Link>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick"></input>
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7----- "></input>
+          <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png" border="0" name="submit" alt="Donate"></input>
+        </form>
+		<p>2021 © AI.Decider</p>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer;

@@ -1,0 +1,146 @@
+
+/* share */
+
+.share-wrapper {
+    border-bottom: 1px solid white;
+    border-left: 2px solid #F98B13;	
+
+	margin:0 20px 0 20px;
+	background-color:#FFCA90;
+	
+	}
+
+
+.share-wrapper:after {
+    content: '';
+    display: table;
+    clear: both; }
+.share-wrapper > * {
+    width: 95%;
+    float: right; 
+	}
+
+
+.total-result, .scores {
+    width: 38% !important;
+    text-align: center;
+    display: flex;
+    float: right;     
+	background-color:#FFCA90;
+	border-left: 1.5px solid white;
+	color:white;
+}
+
+.total-result p {
+    width: 50%;
+    word-break: break-all;
+	border-right: 1.5px solid white;
+    margin: 0;
+    padding: 10px;
+}
+	
+.total-result p:last-child {
+    font-size: 120% !important; 
+    background-color:#F98B13; 
+	color:white;
+    text-transform: capitalize;
+	}
+
+.total-result p:first-child {
+	color:white;
+    background-color:#FFCA90;
+	text-transform: capitalize;
+	}
+
+.scores p:last-child {
+	    background-color:#F98B13; 
+	}
+.scores p {
+    width: 50%;
+	padding:10px;
+    font-weight: bold;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+	margin:0;
+	border-right: 1.5px solid white;
+	}
+
+.winnerName {
+    font-size: 200% !important; 
+    text-align: center;
+	}
+
+.option {
+    display: flex;
+
+	}
+.option .bar {
+    width: 40%;
+    display: flex;
+    float: right;
+    margin-left: auto; 
+	}
+.option p {
+    margin: 0;
+    padding: 10px;
+    line-height: 20px; 
+	}
+.option .bar-option {
+    width: 50%;
+    text-align: center; }
+.option .bar-option div {
+    height: 100%;
+    }
+.option .bar-option p {
+	border-right: 1.5px solid white;
+	}
+
+.option-name {
+    max-width: 60%;
+    word-break: break-all; 
+	}
+	
+.right-option p {
+    background-color:#F98B13; 
+	color:white;
+	font-size: 140% !important; 
+	text-transform: capitalize !important; 
+	}
+
+
+
+.left-option  {
+	color:white;
+    background-color:#FFCA90;
+	border-left: 1.5px solid white;
+	}
+	
+	
+.sharebuttons {
+    display:flex;
+	vertical-align:center!important;
+	margin-bottom:20px;
+}
+
+.SocialMediaShareButton {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+}
+
+.share-page {
+    position: relative;
+	max-width:1000px;
+	margin: auto;
+	}
+
+.page-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+    width: auto !important; }
+
+/* end of share  */

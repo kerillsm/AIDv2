@@ -1,0 +1,20 @@
+.smaps{
+	margin: 30px 0 10px 0!important;
+	border-top:1px solid #00bcd4;
+	padding-top: 10px;
+}
+.smaps div{
+	margin:5px 5px 5px 10px;
+	padding:0 0 10px 0;
+}
+.sblock{
+	min-width:40%;
+    max-width:95%;
+}
+.sblock ul{
+	margin:5px 5px 5px 28px;
+}
+.sblock  a{
+text-decoration: none;
+color:#00bcd4;
+}

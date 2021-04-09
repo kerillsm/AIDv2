@@ -1,0 +1,84 @@
+[{
+    "regionTitle": "Asia",
+    "countries": [
+"India",
+"Indonesia",
+"Philippines",
+"Vietnam",
+"Korea",
+"Australia",
+"Asia",
+"China",
+"Hong Kong",
+"Thailand",
+"Singapore",
+"Malaysia",
+"Japan",
+"Tibet"
+    ]
+},
+{
+    "regionTitle": "United States",
+    "countries": [
+"United States"
+    ]
+},
+{
+    "regionTitle": "Middle East&Africa",
+    "countries": [
+"Israel",
+"Pakistan",
+"South Africa",
+"Turkey",
+"Middle East&Africa",
+"Iran",
+"Levant"
+    ]
+},
+{
+    "regionTitle": "Europe",
+    "countries": [
+"Italy",
+"Poland",
+"Belgium",
+"Germany",
+"France",
+"Ukraine",
+"Romania",
+"United Kingdom",
+"Europe",
+"Greece",
+"Netherlands",
+"Georgia",
+"Hungary",
+"Switzerland",
+"Serbia",
+"Czech Republic",
+"Spain",
+"Croatia",
+"Portugal",
+"Norway",
+"Finland",
+"Russia",
+"Scotland",
+"Albania",
+"Iceland",
+"Sweden",
+"Denmark",
+"Austria"
+    ]
+},
+{
+    "regionTitle": "America (other)",
+    "countries": [
+"Brazil",
+"South America",
+"America (other)",
+"Mexico",
+"Argentina",
+"Jamaica",
+"Canada",
+"Chile"
+    ]
+}
+]

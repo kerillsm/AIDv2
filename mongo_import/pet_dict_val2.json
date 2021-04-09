@@ -1,0 +1,12 @@
+[
+{"id":250 , "value": "golden retriever", "type": "dog", "data": []},
+{"id":251 , "value": "poodle", "type": "dog", "data": []},
+{"id":252 , "value": "pembroke welsh corgi", "type": "dog", "data": []},
+{"id":253 , "value": "french bulldog", "type": "dog", "data": []},
+{"id":254 , "value": "australian shepherd", "type": "dog", "data": []},
+{"id":255 , "value": "beagle", "type": "dog", "data": []},
+{"id":256 , "value": "goldendoodle", "type": "dog", "data": []},
+{"id":257 , "value": "australian cattle dog", "type": "dog", "data": []},
+{"id":258 , "value": "shiba inu", "type": "dog", "data": []},
+{"id":259 , "value": "border collie", "type": "dog", "data": []}
+]
